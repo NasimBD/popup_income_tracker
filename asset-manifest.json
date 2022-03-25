@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/popup_income_tracker_react/static/css/main.0915848f.css",
+    "main.js": "/popup_income_tracker_react/static/js/main.bef2022a.js",
+    "index.html": "/popup_income_tracker_react/index.html",
+    "main.0915848f.css.map": "/popup_income_tracker_react/static/css/main.0915848f.css.map",
+    "main.bef2022a.js.map": "/popup_income_tracker_react/static/js/main.bef2022a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0915848f.css",
+    "static/js/main.bef2022a.js"
+  ]
+}
