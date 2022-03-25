@@ -1,0 +1,79 @@
+ul{
+    list-style-type: none;
+    margin-top: 0.4rem;
+}
+
+#popupModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+#popupModal > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: var(--xLight);
+    padding: 1rem;
+}
+
+.maxIncome-btn-wrapper{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.maxIncome-btn-wrapper .btn{
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.maxIncome-btn-wrapper .btn:hover{
+    color: var(--xDark);
+}
+
+#popupModal p, #popupModal h5{
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--xDark);
+    font-size: 1.2rem;
+}
+
+.close-btn{
+    background-color: var(--alert);
+    color: var(--xLight);
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    letter-spacing:2px;
+    font-weight: 700;
+}
+
+/* --------------------------------- media */
+/* --------------------------------- 1 */
+@media screen and (max-width: 576px){
+    #popupModal{
+        padding: 1rem;
+    }
+
+    #popupModal p, #popupModal h5{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+/* --------------------------------- 1 */
+@media screen and (min-width: 576px) and (max-width: 769px){
+    
+}
+/* --------------------------------- 3 */
+@media screen and (min-width: 769px){
+    
+}
